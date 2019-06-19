@@ -55,7 +55,12 @@ public class DoctorAdapter extends RecyclerView.Adapter<DoctorAdapter.DoctorHold
         } else if (doctorHomeModel.getImage() == 3) {
             holder.click_image.setImageDrawable(context.getResources().getDrawable(R.drawable.patient)) ; //Url of the image to load.
 
-        } else {
+        }
+        else if (doctorHomeModel.getImage() == 4) {
+            holder.click_image.setImageDrawable(context.getResources().getDrawable(R.drawable.blood_bag)) ; //Url of the image to load.
+
+        }
+        else {
             holder.click_image.setImageDrawable(context.getResources().getDrawable(R.drawable.file))  ;//Url of the image to load.
 
         }

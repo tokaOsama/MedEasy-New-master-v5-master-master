@@ -59,6 +59,7 @@ public class DoctorHome extends AppCompatActivity {
         docModel.add(new DoctorHomeModel("Medicine", 1));
         docModel.add(new DoctorHomeModel("Analysis", 2));
         docModel.add(new DoctorHomeModel("Profile", 3));
+        docModel.add(new DoctorHomeModel("Blood Type", 4));
 
         doctorAdapter = new DoctorAdapter(docModel, this, new DoctorAdapter.OnItemClick() {
             @Override
@@ -74,6 +75,9 @@ public class DoctorHome extends AppCompatActivity {
                     startActivity(new Intent(DoctorHome.this, LabResultsAvtivity.class));
 
                 } else if (position == 3) {
+                    startActivity(new Intent(DoctorHome.this, DocSectionMedince.class));
+                }
+                  else if (position == 4) {
                     startActivity(new Intent(DoctorHome.this, DocSectionMedince.class));
                 }
             }
