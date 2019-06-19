@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">MedEasy</string>
+    <string name="title_activity_syndr">SyndrActivity</string>
+    <string name="Alarm">Alarm</string>
+    <string name="please_select_time">Please Select Time</string>
+    <string name="st">sat</string>
+    <string name="sun">sun</string>
+    <string name="mon">mon</string>
+    <string name="tue">tue</string>
+    <string name="wed">wed</string>
+    <string name="thu">thu</string>
+    <string name="fri">fri</string>
+    <string name="Save">Save</string>
+    <string name="back">Back</string>
+    <string name="save">Save</string>
+    <string name="Cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="DM">DM</string>
+    <string name="Smoking">Smoking</string>
+    <string name="assessmentSheet">Assessment Sheet</string>
+    <string name="medicineSheet">Medicine Sheet</string>
+    <string name="YourComplaint">Your Complaint</string>
+    <string name="IHDriskFactor">IHD risk Factor :</string>
+    <string name="hypertension">Hypertension</string>
+    <string name="dyslipidemia">Dyslipidemia</string>
+    <string name="pastHistory">Past History</string>
+    <string name="presentHistory">Present History</string>
+    <string name="goToprofile">Go To Profile Patient</string>
+    <string name="generalLook">General Look</string>
+    <string name="normal">Normal</string>
+    <string name="pale">Pale</string>
+    <string name="cyanosed">Cyanosed</string>
+    <string name="sweaty">Sweaty</string>
+    <string name="next">Next</string>
+    <string name="pastHisory">Your Past History</string>
+    <string name="male">  Male</string>
+    <string name="female">  Female</string>
+    <string name="doctor">Doctor</string>
+    <string name="patient">Patient</string>
+    <string name="MedEasy">MedEasy</string>
+
+    <!--<        LoginActivity      >-->
+    <string name="loginActivity_userName">Your number</string>
+    <string name="loginActivity_userPassword">Your password</string>
+    <string name="loginActivity_forgetPassword">forget password?</string>
+    <string name="loginActivity_loginButton">Login</string>
+    <string name="loginActivity_signUp">   Not register ? Sign up   </string>
+
+    <!--<        LoginActivity.ـJava      >-->
+    <string name="loginActivityJava_Login">Login</string>
+
+    <!--*****************************************************************************************-->
+
+
+    <!--<        signUpActivity      >-->
+    <string name="signUpActivity_userName">Username</string>
+    <string name="signUpActivity_userPhone">Your Phone</string>
+    <string name="signUpActivity_userYearOfBirth">Year of birth</string>
+    <string name="signUpActivity_userAddress">Your Address</string>
+    <string name="signUpActivity_userOccupation">Your Occupation</string>
+    <string name="signUpActivity_userFamilyHistoryLink">Family History Link</string>
+    <string name="signUpActivity_userWeight">Your Weight</string>
+    <string name="signUpActivity_userHeight">Your Height</string>
+    <string name="signUpActivity_userPassword">Your Password</string>
+    <string name="signUpActivity_signUpButton">Sign up</string>
+
+
+    <!--<        signUpActivity._Java      >-->
+
+
+    <!--*****************************************************************************************-->
+
+    <!--<        HomeToolbar      >-->
+    <string name="homeToolbar_userName">Ahmed Mohamed</string>
+    <string name="homeToolbar_Medicine">Medicine</string>
+    <string name="homeToolbar_AddCategory">Add Category</string>
+    <string name="homeToolbar_Alarm">Alarm</string>
+    <string name="homeToolbar_Syndrome">Syndrome</string>
+    <string name="homeToolbar_Favorite">Favorite</string>
+    <string name="homeToolbar_Setting">Setting</string>
+    <string name="homeToolbar_Feedback">Feedback</string>
+    <string name="homeToolbar_Logout">Logout</string>
+
+    <!--*****************************************************************************************-->
+
+    <!--<        Toast massages      >-->
+    <string name="Toast_needPhone">Enter Your Phone number please</string>
+    <string name="Toast_needPassword">Enter Your Password number please</string>
+    <string name="Toast_needName">Enter Your Name  please</string>
+    <string name="Toast_needYearOfBirth">Enter Your Year Of Birth  please</string>
+    <string name="Toast_needAddress">Enter Your Address  please</string>
+    <string name="Toast_needOccupation">Enter Your Occupation  please</string>
+    <string name="Toast_needWeight">Enter Your Weight  please</string>
+    <string name="Toast_needHeight">Enter Your Height  please</string>
+    <string name="Toast_needFamilyHistoryLink">Enter Your Family History Link  please</string>
+
+
+    <string name="Toast_wrongPhonOrPassword">Phone or Password are incorrect</string>
+    <string name="Toast_PhoneAreUesd">The phone is already in use by another user.</string>
+    <string name="Toast_RegisterFail">Register Fail</string>
+    <string name="Toast_RegisterSuccessfull">Register Successfull </string>
+    <string name="Toast_invalidPhone"> Phone number invalid</string>
+
+    <!--*****************************************************************************************-->
+
+    <!--<        CustomDialog massages     >-->
+    <string name="namePositiveButton">Conform</string>
+    <string name="nameNegativeButton">Cancel</string>
+
+
+    <!--*****************************************************************************************-->
+    <!--<        ProgressDialog massages     >-->
+    <string name="ProgressDialog_w8">Loding please wait  ...</string>
+
+
+    <!--*****************************************************************************************-->
+    <!-- home Activity Bottom nav -->
+    <string name="pre">prescription</string>
+    <string name="Profile">Profile</string>
+    <string name="Home">Home</string>
+
+
+    <!--*****************************************************************************************-->
+    <!-- home Activity Bottom nav -->
+    <string name="medicalHistory">Medical History</string>
+
+
+    <!--*****************************************************************************************-->
+    <!-- Doctor Medicine Section -->
+    <string name="AddMedinice">Add Medicine</string>
+    <string name="PerDay">Per Day</string>
+    <string name="Dose"> Dose</string>
+    <string name="StartTime"> Start Time</string>
+    <string name="EndTime"> End Time</string>
+    <string name="Commit">commit</string>
+
+</resources>

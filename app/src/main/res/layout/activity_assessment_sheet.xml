@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AssessmentSheet"
+    android:background="#f1f1f1"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/LinearLayout.GuillotineItem"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:paddingRight="10dp">
+
+            <com.example.nihal.medeasy.widget.CanaroTextView
+                style="@style/AssessmentSheetGuillotineItem"
+                android:text="@string/assessmentSheet"
+                android:textSize="22dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/WhiteSection"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="#fff"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/ImageViewGuillotineItem"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/ic_tired" />
+
+            <EditText
+                android:id="@+id/yourComplaint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/colorAccent"
+                android:hint="@string/YourComplaint"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/section_IHK_risk_Factor"
+            style="@style/WhiteSection"
+            android:layout_height="325dp"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:orientation="vertical">
+
+            <com.example.nihal.medeasy.widget.CanaroTextView
+                style="@style/AssessmentSheetGuillotineItem"
+                android:layout_marginTop="10dp"
+                android:text="@string/IHDriskFactor"
+                android:textSize="17dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginTop="-62dp"
+                    android:text="."
+                    android:textColor="@color/colorAccent"
+                    android:textSize="70dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="-60dp"
+                    android:text="@string/DM"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/DM_yes"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="@string/yes"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15dp" />
+
+
+                <CheckBox
+                    android:id="@+id/DM_no"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="55dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="@string/no"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginTop="-62dp"
+                    android:text="."
+                    android:textColor="@color/colorAccent"
+                    android:textSize="70dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="-60dp"
+                    android:text="@string/Smoking"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/Smoking_yes"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="@string/yes"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15dp" />
+
+
+                <CheckBox
+                    android:id="@+id/Smoking_no"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="55dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="@string/no"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginTop="-62dp"
+                    android:text="."
+                    android:textColor="@color/colorAccent"
+                    android:textSize="70dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="-60dp"
+                    android:text="@string/hypertension"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/hypertension_yes"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="@string/yes"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15dp" />
+
+
+                <CheckBox
+                    android:id="@+id/hypertension_no"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="55dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="@string/no"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginTop="-62dp"
+                    android:text="."
+                    android:textColor="@color/colorAccent"
+                    android:textSize="70dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="-60dp"
+                    android:text="@string/dyslipidemia"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/dyslipidemia_yes"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="@string/yes"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15dp" />
+
+
+                <CheckBox
+                    android:id="@+id/dyslipidemia_no"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="55dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="@string/no"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pastHistory_Section"
+            style="@style/WhiteSection"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:gravity="left"
+            android:paddingTop="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="vertical">
+            </LinearLayout>
+
+            <ImageView
+                style="@style/ImageViewGuillotineItem"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/ic_plus" />
+
+            <LinearLayout
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="3dp"
+                android:id="@+id/hideLinearLayoutPastHistory"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="1dp"
+                    android:text="@string/pastHistory"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="23dp"
+
+                    />
+
+
+                <EditText
+                    android:id="@+id/pasthistory_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="20dp"
+                    android:backgroundTint="@color/colorAccent"
+                    android:hint="@string/pastHisory"
+                    android:inputType="text"
+                    android:visibility="gone"
+                    android:maxLines="10"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/WhiteSection"
+            android:layout_height="70dp"
+            android:background="#fff"
+            android:gravity="left"
+            android:orientation="horizontal"
+            android:id="@+id/GoToProfilePatient"
+            >
+
+            <ImageView
+                style="@style/ImageViewGuillotineItem"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/left_arrow" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/go_profile"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/presentHistory"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="13dp"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="23dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/goToprofile"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#f28b74"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/WhiteSection"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:background="#fff"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="18dp"
+                    android:src="@drawable/ic_general_look" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/generalLook"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="23dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/generalLook_normal"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="5dp"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="@string/normal"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="15dp" />
+
+
+                    <CheckBox
+                        android:id="@+id/generalLook_pale"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="@string/pale"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/generalLook_cyanosed"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="-25dp"
+                        android:layout_marginRight="5dp"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="@string/cyanosed"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="15dp" />
+
+
+                    <CheckBox
+                        android:id="@+id/generalLook_sweaty"
+                        android:layout_width="85dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="@string/sweaty"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#f1f1f1">
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/next"
+            android:background="#f1f1f1"
+            android:textColor="#f28b74"
+            android:gravity="right"
+            android:textSize="20dp"
+            android:layout_gravity="right"
+            android:id="@+id/next"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

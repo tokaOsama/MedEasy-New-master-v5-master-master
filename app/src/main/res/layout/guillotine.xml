@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#94d6ff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        style="@style/Toolbar"
+        app:contentInsetStart="0dp">
+
+        <ImageView
+            android:id="@+id/guillotine_icon_nav"
+            style="@style/ImageView.icon.nav"
+            android:src="@drawable/ic_menu"
+            />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/profile_img"
+        style="@style/LinearLayout.GuillotineItem.profile">
+
+        <ImageView
+            style="@style/ImageView.GuillotineImgProfile"
+            android:src="@drawable/male"
+            />
+
+        <com.example.nihal.medeasy.widget.CanaroTextView
+            style="@style/TextView.GuillotineNameOfPersonNav"
+            android:text="Ahmed Mohamed" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayout.GuillotineItem"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp">
+
+        <View
+            android:layout_width="320dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@drawable/line_divider_nav"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/drugs_section"
+        style="@style/LinearLayout.GuillotineItem"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            style="@style/ImageView.GuillotineItem"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_drugs" />
+
+        <com.example.nihal.medeasy.widget.CanaroTextView
+            style="@style/TextView.GuillotineItem"
+            android:text="Medicine" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ctyg_section"
+        style="@style/LinearLayout.GuillotineItem">
+
+        <ImageView
+            style="@style/ImageView.GuillotineItem"
+            android:src="@drawable/ic_add_category" />
+
+        <com.example.nihal.medeasy.widget.CanaroTextView
+            style="@style/TextView.GuillotineItem"
+            android:text="Add Category" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/alarm_section"
+        style="@style/LinearLayout.GuillotineItem">
+
+        <ImageView
+            style="@style/ImageView.GuillotineItem"
+            android:src="@drawable/ic_alarm" />
+
+        <com.example.nihal.medeasy.widget.CanaroTextView
+            style="@style/TextView.GuillotineItem"
+            android:text="Alarm" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/synd_section"
+        style="@style/LinearLayout.GuillotineItem">
+
+        <ImageView
+            style="@style/ImageView.GuillotineItem"
+            android:src="@drawable/ic_synd" />
+
+        <com.example.nihal.medeasy.widget.CanaroTextView
+            style="@style/TextView.GuillotineItem.Selected"
+            android:text="Syndrome" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/favorite_section"
+        style="@style/LinearLayout.GuillotineItem">
+
+        <ImageView
+            style="@style/ImageView.GuillotineItem"
+            android:src="@drawable/ic_favorite" />
+
+        <com.example.nihal.medeasy.widget.CanaroTextView
+            style="@style/TextView.GuillotineItem"
+            android:text="Favorite" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        style="@style/LinearLayout.GuillotineItem"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp">
+
+        <View
+            android:layout_width="320dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@drawable/line_divider_nav"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+    android:id="@+id/settings_section"
+    style="@style/LinearLayout.GuillotineItem"
+        android:layout_marginTop="30dp">
+
+    <ImageView
+        style="@style/ImageView.GuillotineItem"
+        android:src="@drawable/ic_settings" />
+
+    <com.example.nihal.medeasy.widget.CanaroTextView
+        style="@style/TextView.GuillotineItem"
+        android:text="Setting" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/feedback_section"
+        style="@style/LinearLayout.GuillotineItem">
+
+        <ImageView
+            style="@style/ImageView.GuillotineItem"
+            android:src="@drawable/ic_feedback" />
+
+        <com.example.nihal.medeasy.widget.CanaroTextView
+            style="@style/TextView.GuillotineItem"
+            android:text="Feedback" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayout.GuillotineItem"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp">
+
+        <View
+            android:layout_width="320dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@drawable/line_divider_nav"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/logout_section"
+        style="@style/LinearLayout.GuillotineItem"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            style="@style/ImageView.GuillotineItem"
+            android:src="@drawable/ic_logout" />
+
+        <com.example.nihal.medeasy.widget.CanaroTextView
+            style="@style/TextView.GuillotineItem"
+            android:text="Logout" />
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

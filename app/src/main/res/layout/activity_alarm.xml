@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AlarmActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp">
+    <ImageView
+        android:layout_width="40dp"
+        android:id="@+id/back"
+        android:layout_alignParentStart="true"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:src="@drawable/back_ic"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_height="70dp"
+        android:id="@+id/add"
+        android:layout_gravity="center"
+        android:src="@drawable/add_ic"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:text="@string/Alarm"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"/>
+</RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/RV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"></android.support.v7.widget.RecyclerView>
+</LinearLayout>

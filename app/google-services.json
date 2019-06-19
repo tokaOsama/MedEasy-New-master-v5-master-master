@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "502893055786",
+    "firebase_url": "https://medeasy-v2.firebaseio.com",
+    "project_id": "medeasy-v2",
+    "storage_bucket": "medeasy-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502893055786:android:8efcfe7118585a24",
+        "android_client_info": {
+          "package_name": "com.example.nihal.medeasy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502893055786-pqtcv7l4s8g1o1f77g2app0kce6knt92.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nihal.medeasy",
+            "certificate_hash": "8edb9c451eb16f29485f6fe8f9fe58537421a739"
+          }
+        },
+        {
+          "client_id": "502893055786-llliqlf93pmo0qllavcd6413bvfmtm0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbZa2vPWVVePD-DY4pmCyn4jCpSF9QFT4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "502893055786-llliqlf93pmo0qllavcd6413bvfmtm0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
